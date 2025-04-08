@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coaching Vocacional</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        nav a:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card {
+            background: #ffffff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 280px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .card h3 {
+            color: #4169e1;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 0.95em;
+            color: #555;
+        }
+
+        .imagen {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .imagen img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alejandra Martínez</h1>
+        <p>Psicóloga & Coach Vocacional</p>
+    </header>
+
+    <nav>
+        <div>
+            <a href="#">Inicio</a>
+            <a href="#coaching">Coaching</a>
+            <a href="#acerca">Acerca de</a>
+            <a href="#blog">Blog</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Coaching vocacional para jóvenes</h1>
+        <p>Te ayudo a tomar decisiones que te acerquen a tu propósito</p>
+        <button>Comienza ahora</button>
+    </section>
+
+    <!-- Puedes agregar una imagen aquí -->
+    <div class="imagen">
+        <img src="imagen.jpg" alt="Sesiones de Coaching">
+    </div>
+
+    <section class="section" id="coaching">
+        <h2>¿Eres estudiante en tus últimos años de preparatoria?</h2>
+        <p>Entonces este programa está diseñado para ti. Descubre tu camino profesional.</p>
+    </section>
+
+    <section class="section" id="programas">
+        <h2>Programas de Coaching de Orientación Vocacional</h2>
+        <div class="programs">
+            <div class="card">
+                <h3>Básico</h3>
+                <p>Sesiones individuales para definir tus intereses y valores.</p>
+                <!-- Imagen opcional -->
+                <img src="imagen-basico.jpg" alt="Programa Básico">
+            </div>
+            <div class="card">
+                <h3>Intermedio</h3>
+                <p>Incluye pruebas vocacionales y exploración de carreras universitarias.</p>
+                <img src="imagen.jpg" alt="Programa Intermedio">
+            </div>
+            <div class="card">
+                <h3>Completo</h3>
+                <p>Programa integral con acompañamiento total en tu elección profesional.</p>
+                <img src="imagen.jpg" alt="Programa Completo">
+            </div>
+        </div>
+    </section>
+
+    <section class="formulario">
+        <h2>Descarga tu guía gratis</h2>
+        <p>3 preguntas que te ayudarán a descubrir tu propósito</p>
+        <form>
+            <input type="text" placeholder="Nombre"><br>
+            <input type="text" placeholder="Apellido"><br>
+            <input type="email" placeholder="Correo"><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Alejandra Martínez | Coaching Vocacional</p>
+    </footer>
+</body>
+</html>
+
