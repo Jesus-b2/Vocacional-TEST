@@ -1,39 +1,31 @@
-Coaching Vocacional - Sitio Web
+📘 Descripción del Proyecto
+Sitio web inicial para una coach vocacional y psicóloga, que centraliza información, programas, formularios y comunicación con adolescentes. Contempla versión estática (HTML/CSS) y roadmap para versión dinámica en un futuro (Node.js + PostgreSQL).
 
-Este repositorio contiene el código base para el desarrollo de un sitio web dirigido a una coach vocacional y psicóloga especializada en orientar a adolescentes que se encuentran en proceso de decidir su futuro profesional.
 
-Tecnologías utilizadas
-HTML5
-CSS3
+📦 Estructura del Proyecto
+├── index.html
+├── estilos.css
+├── README.md
+└── /img (sugerido para imágenes)
 
-Descripción del proyecto
+🧰 Requisitos Técnicos
+- Node.js 18+
+- PostgreSQL (planificado)
+- Navegador moderno
+- Paquetes: express, dotenv, bcrypt, nodemailer (futuro)
 
-Este proyecto representa la fase inicial del desarrollo del sitio web. Se enfoca en el diseño visual y la estructura de la página, sin funcionalidades dinámicas o de backend.
+⚙️ Instalación y Uso
+1. Clonar repositorio desde GitHub
+2. Abrir index.html para vista estática
+3. Para desarrollo completo:
+   - Ejecutar npm install
+   - Configurar archivo .env
+   - Ejecutar npm start o node app.js
 
-Características:
 
-Encabezado con nombre profesional
-
-Menú de navegación con efecto de ampliación al pasar el mouse
-
-Sección principal (hero) con mensaje motivacional
-
-Sección de programas con diseño de tarjetas interactivas
-
-Formulario de contacto
-
-Indicaciones para integración de imágenes
-
-Arquitectura
-
-El proyecto está diseñado para escalar en el futuro hacia una arquitectura más completa que incluya:
-
-Cliente (navegador web)
-
-Frontend HTML/CSS/JS
-
-Backend (Node.js o similar)
-
-Base de datos relacional (PostgreSQL)
-
-APIs externas (correo, calendario, etc.)
+🚀 Roadmap
+- [x] Diseño visual estático
+- [ ] Backend funcional
+- [ ] Registro e inicio de sesión
+- [ ] Gestión de sesiones y progreso
+- [ ] Despliegue en la nube
